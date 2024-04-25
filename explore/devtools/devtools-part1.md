@@ -11,23 +11,23 @@ expose.js
 **Number 3**
 <hr>
 
-(disk cache)	?
+137 B
 
 **Number 4**
 <hr>
-0.40 Server Response
-79.84 ms Content download
 
-81.50 Total
+418ms
 
 **Number 5**
 <hr>
- Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
  
 **Number 6**
 <hr>
 
-https://cse110-fa22.github.io/Lab4_Hosted/citylots.json
+cache-bur-kbur8200043-BUR
+
 
 **Number 7**
 <hr>
