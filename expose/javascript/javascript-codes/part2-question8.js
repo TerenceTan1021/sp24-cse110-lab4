@@ -11,7 +11,6 @@ function discountPrices(prices, discount) {
     //console.log(i);
     //console.log(discountedPrice);
     //console.log(finalPrice);
-
     return discounted;
 }
 discountPrices([100, 200, 300], 0.5);
