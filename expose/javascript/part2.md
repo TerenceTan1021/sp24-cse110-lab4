@@ -131,7 +131,11 @@ we would force undefined to be a string since we use "+" operator
 H. '3' - undefined = NaN
 3 cannot be converted to a valid number
 
+<br>
+
 **Question 14**
+
+<hr>
 
 A.‘2’ > 1 = true
 string 2 will be converted to a number
@@ -150,7 +154,11 @@ true is labeled as a 1
 F.true === Boolean(2) = true
 Boolean(2) is also true
 
+<br>
+
 **Question 15**
+
+<hr>
 
 "==" will convert one operand to match the other before comparison
 "===" means strictly equal
