@@ -145,27 +145,27 @@ H. '3' - undefined = NaN
 
 <hr>
 
-A.‘2’ > 1 = true
+A. ‘2’ > 1 = true
 
 - string 2 will be converted to a number
 
-B.‘2’ < ‘12’ = true
+B. ‘2’ < ‘12’ = true
 
 - operation will be done by lexicographically character
 
-C.2 == ‘2’ = true
+C. 2 == ‘2’ = true
 
 - string 2 will be converted to a number
 
-D.2 === ‘2’ = false
+D. 2 === ‘2’ = false
 
 - === is strictly equal a number is not the same as a string
 
-E.true == 2 = false
+E. true == 2 = false
 
 - true is labeled as a 1
 
-F.true === Boolean(2) = true
+F. true === Boolean(2) = true
 
 - Boolean(2) is also true
 
@@ -176,6 +176,7 @@ F.true === Boolean(2) = true
 <hr>
 
 "==" will convert one operand to match the other before comparison
+
 "===" means strictly equal
 
 <br>
