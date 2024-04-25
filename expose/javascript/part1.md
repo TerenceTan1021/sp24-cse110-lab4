@@ -1,5 +1,6 @@
 
 **Question 1**
+<hr>
 
 line 9 will produce the output _20_, since add is true it will run the if function, and add the two numbers together
 
