@@ -108,27 +108,35 @@ E. console.log(student.courseLoad[0]);
 <hr>
 
 A. '3' + 2 ='32'
+
 Since you are concatinating with another string
 
 B. '3' - 2 = 1
+
 when you use "-" 3 will be converted into a number and subtracted
 
 C.3 + null = 3
+
 null will be treated as a 0
 
 D. '3' + null  = '3null'
+
 since 3 is a string, null will be converted to a string
 
 E. true + 3 = 4
+
 true will be treated as a 1 false as a 0
 
 F. false + null = 0
+
 same reasoning  as previously, false will be treated as a 0 and so does null
 
 G. '3' + undefined = '3undefined'
+
 we would force undefined to be a string since we use "+" operator
 
 H. '3' - undefined = NaN
+
 3 cannot be converted to a valid number
 
 <br>
@@ -138,20 +146,27 @@ H. '3' - undefined = NaN
 <hr>
 
 A.‘2’ > 1 = true
+
 string 2 will be converted to a number
 
 B.‘2’ < ‘12’ = true
+
 operation will be done by lexicographically character
+
 C.2 == ‘2’ = true
+
 string 2 will be converted to a number
 
 D.2 === ‘2’ = false
+
 === is strictly equal a number is not the same as a string
 
 E.true == 2 = false
+
 true is labeled as a 1
 
 F.true === Boolean(2) = true
+
 Boolean(2) is also true
 
 <br>
