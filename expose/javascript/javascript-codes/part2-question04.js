@@ -1,4 +1,3 @@
-//Question 1
 function discountPrices(prices, discount) {
     var discounted = [];
     var finalPrice = 0;
@@ -9,14 +8,15 @@ function discountPrices(prices, discount) {
         discounted.push(finalPrice);
     }
 
-    console.log(i);
+    //console.log(i);
     //console.log(discountedPrice);
     //console.log(finalPrice);
 
-    //return discounted;
+    return discounted;
+    
 }
 
 discountPrices([100, 200, 300], 0.5);
 
-//Answer: at line 12 it prints out 3, because in line 19 we has a price with an 
-//array containing 3 elements
+//Answer: becsause we are returning? to get the array 
+//we write console.log(discounted);

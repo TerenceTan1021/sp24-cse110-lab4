@@ -9,14 +9,13 @@ function discountPrices(prices, discount) {
     }
 
     //console.log(i);
-    //console.log(discountedPrice);
+    console.log(discountedPrice);
     //console.log(finalPrice);
 
     return discounted;
-    
 }
 
 discountPrices([100, 200, 300], 0.5);
 
-//Answer: becsause we are returning? to get the array 
-//we write console.log(discounted);
+//Answer: it will print out 150, because 300 is the last element in
+//the prices array multiplied by 1 - 0.5. so 300(0.5) = 150.

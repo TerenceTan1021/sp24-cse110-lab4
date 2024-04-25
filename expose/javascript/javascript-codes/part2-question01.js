@@ -1,3 +1,4 @@
+//Question 1
 function discountPrices(prices, discount) {
     var discounted = [];
     var finalPrice = 0;
@@ -8,14 +9,14 @@ function discountPrices(prices, discount) {
         discounted.push(finalPrice);
     }
 
-    //console.log(i);
-    console.log(discountedPrice);
+    console.log(i);
+    //console.log(discountedPrice);
     //console.log(finalPrice);
 
-    return discounted;
+    //return discounted;
 }
 
 discountPrices([100, 200, 300], 0.5);
 
-//Answer: it will print out 150, because 300 is the last element in
-//the prices array multiplied by 1 - 0.5. so 300(0.5) = 150.
+//Answer: at line 12 it prints out 3, because in line 19 we has a price with an 
+//array containing 3 elements

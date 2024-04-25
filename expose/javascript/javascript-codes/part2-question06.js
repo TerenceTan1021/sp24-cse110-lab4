@@ -9,13 +9,12 @@ function discountPrices(prices, discount) {
     }
 
     //console.log(i);
-    //console.log(discountedPrice);
-    console.log(finalPrice);
+    console.log(discountedPrice);
+    //console.log(finalPrice);
 
     return discounted;
 }
 
 discountPrices([100, 200, 300], 0.5);
-//Answer: it outputs 150, Im thinking unlike discounted price, we have
-//jist finalPrice being assigned with a value, therefore, being able
-//to change the let finalPrice 
+
+//Answe: Again error, because it is not within the for loop
