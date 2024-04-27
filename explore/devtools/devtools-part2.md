@@ -19,5 +19,5 @@ we want to add in .valueAsNumber for both to
 let num1 = document.getElementById("num1").valueAsNumber;
 let num2 = document.getElementById("num2").valueAsNumber;
 ```
-!["fix page"](screenshots/fix.png)
+
 
